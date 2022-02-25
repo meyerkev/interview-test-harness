@@ -1,7 +1,12 @@
 """
-
+A docstring for the problem
 """
 from pprint import pprint
+
+
+def my_func(*args, **kwargs):
+    pass
+
 
 # tuple of input, expected
 TEST_CASES = [
@@ -17,6 +22,7 @@ def run_test(input_, expected):
         print("Failed!")
         pprint(output)
         pprint(expected)
+    print()
 
 def run_tests():
     for test_case in TEST_CASES:
