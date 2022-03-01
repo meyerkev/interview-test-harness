@@ -1,4 +1,6 @@
 """
+Copied from https://github.com/meyerkev/interview-test-harness/
+
 A docstring for the problem
 """
 from pprint import pprint
